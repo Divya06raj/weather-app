@@ -44,44 +44,6 @@ A beautiful, feature-rich weather application that provides real-time weather da
 
 Simply open `index.html` in your browser. That's it!
 
-## 🌐 Deployment Options
-
-### Option 1: Vercel (Recommended)
-
-1. Install Vercel CLI:
-   ```bash
-   npm install -g vercel
-   ```
-
-2. Deploy:
-   ```bash
-   cd "Weather app"
-   vercel
-   ```
-
-3. Follow the prompts and your app will be live!
-
-### Option 2: Netlify
-
-1. Go to [Netlify](https://www.netlify.com/)
-2. Drag and drop your "Weather app" folder
-3. Your app is live instantly!
-
-### Option 3: GitHub Pages
-
-1. Create a GitHub repository
-2. Push your code:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin your-repo-url
-   git push -u origin main
-   ```
-3. Go to Settings → Pages → Select main branch → Save
-4. Your app will be live at `https://yourusername.github.io/repo-name`
-
 ## 📱 Usage
 
 1. **Auto-location**: Click the location icon to get weather for your current location
@@ -124,26 +86,6 @@ In `script.js`, change `units=metric` to `units=imperial` for Fahrenheit:
 ```javascript
 `${API_BASE}/weather?q=${city}&units=imperial&appid=${API_KEY}`
 ```
-
-### Modify Colors
-Edit CSS variables in `style.css`:
-```css
-:root {
-    --primary-color: #667eea;
-    --secondary-color: #764ba2;
-}
-```
-
-## 📊 API Limits
-
-Free OpenWeatherMap API includes:
-- 60 calls/minute
-- 1,000,000 calls/month
-- Current weather data
-- 5-day forecast
-- UV index
-
-Perfect for personal projects!
 
 ## 🐛 Troubleshooting
 
